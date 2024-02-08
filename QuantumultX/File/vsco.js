@@ -24,7 +24,8 @@ const ua = $request.headers['User-Agent'] || $request.headers['user-agent'];
 const list = {
 	'HTTPBot': { name: 'rc_lifetime', id: 'com.behindtechlines.HTTPBot.prounlock' },
 	'VSCO': { name: 'membership', id: 'com.circles.fin.premium.yearly' },
-	'1Blocker': { name: 'premium', id: 'blocker.ios.subscription.yearly' }
+	'1Blocker': { name: 'premium', id: 'blocker.ios.subscription.yearly' },
+	'Aphrodite': { name: 'all', id: 'com.ziheng.aphrodite.lifetime'}
 };
 const data = {
 	"expires_date": "2030-02-18T07:52:54Z",
